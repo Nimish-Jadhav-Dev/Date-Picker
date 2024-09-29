@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/recurrence_options.js", "app/components/preview_calendar.js", "app/components/date_picker.tsx", "app/state_management/usedatestore.js"],
   "exclude": ["node_modules"]
 }
